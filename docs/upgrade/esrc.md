@@ -127,7 +127,7 @@ mod_language_override = schinese
 > 如果你有正版的话，建议复制出来一份再打这个补丁，这样的话正版和学习版是分开的，想玩哪个版本就找对应的目录启动就好了
 
 
-夸克网盘：「DARKSOULSIII_Fix_Repair_Steam_Generic.zip」(https://pan.quark.cn/s/114412518d74){:target="_blank"}
+夸克网盘：[「DARKSOULSIII_Fix_Repair_Steam_Generic.zip」](https://pan.quark.cn/s/114412518d74){:target="_blank"}
 
 
 ![学习版steam联机补丁.png](/assets/images/学习版steam联机补丁.png)
