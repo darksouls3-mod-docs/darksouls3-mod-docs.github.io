@@ -162,11 +162,11 @@ StubDRM64.dll
 ```
 把`StubDRM64.dll`挪到mod引擎的配置文件里，`dlllist.txt`文件里面只保留一个`OnlineFix64.dll`
 
-`dlllist.txt`
+最终形式如下：
 
 ![dlllist文件内容.png](/assets/images/dlllist文件内容.png)
 
-`config_darksouls3.toml`，注意要写在所有dll文件的最上面
+`config_darksouls3.toml`，注意`StubDRM64.dll`要写在所有dll路径的最上面
 
 ![StubDRM64引擎配置.png](/assets/images/StubDRM64引擎配置.png)
 
