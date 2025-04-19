@@ -67,7 +67,9 @@ mod引擎的作用是启动游戏时加载mod文件，并且如果mod文件没�
 
 # 视频教程
 
-[无缝联机兼容mod引擎教程(含正版和学习版)](https://www.bilibili.com/video/BV13J4m1M7Eu){:target="_blank"}
+[正版 无缝兼容mod引擎教程](https://www.bilibili.com/video/BV1tQPieUE36){:target="_blank"}
+
+[学习版 无缝兼容mod引擎教程](https://www.bilibili.com/video/BV1wYPJeoEnK){:target="_blank"}
 
 # 图文教程
 
@@ -87,7 +89,7 @@ mod引擎的作用是启动游戏时加载mod文件，并且如果mod文件没�
 ├─ mod/ #默认给玩家放mod文件的地方
 ├─ modengine2/ #mod引擎的逻辑代码
 ├─ config_armoredcore6.toml #机甲核心6的mod引擎配置文件
-├─ config_darksouls3.toml #动黑暗之魂3的mod引擎配置文件
+├─ config_darksouls3.toml #黑暗之魂3的mod引擎配置文件
 ├─ config_eldenring.toml #艾尔登法环的mod引擎配置文件
 ├─ launchmod_armoredcore6.bat #启动机甲核心6的mod引擎bat脚本
 ├─ launchmod_darksouls3.bat #启动黑暗之魂3的mod引擎bat脚本
@@ -96,13 +98,13 @@ mod引擎的作用是启动游戏时加载mod文件，并且如果mod文件没�
 └─ README.txt #说明文件，可以删
 ```
 
-因为我们要启动的是艾尔登法环，所以其他游戏的相关文件都可以删
+因为我们要启动的是黑暗之魂3，所以其他游戏的相关文件都可以删
 
 ```yaml
 ├─ mod/ #默认给玩家放mod文件的地方
 ├─ modengine2/ #mod引擎的逻辑代码
-├─ config_eldenring.toml #艾尔登法环的mod引擎配置文件
-├─ launchmod_eldenring.bat #启动艾尔登法环的mod引擎bat脚本
+├─ config_darksouls3.toml #黑暗之魂3的mod引擎配置文件
+├─ launchmod_darksouls3.bat #启动黑暗之魂3的mod引擎bat脚本
 └─ modengine2_launcher.exe #mod引擎的启动程序，不要给这个文件重命名
 ```
 
@@ -110,7 +112,7 @@ mod引擎的作用是启动游戏时加载mod文件，并且如果mod文件没�
 
 ![mod引擎游戏目录.png](/assets/images/mod引擎游戏目录.png)
 
-## mod引擎配置文件`config_eldenring.toml`说明
+## mod引擎配置文件`config_darksouls3.toml`说明
 
 ```toml
 [modengine]
@@ -122,7 +124,7 @@ external_dlls = []
 [extension.mod_loader]
 # 是否加载mod，改成false的话不会加载下方mods配置项对应的目录下的文件，只会加载dll文件
 enabled = true
-# Not currently supported for Elden Ring
+# （这个配置基本用不到）
 loose_params = false
 # 可以配置多个存放mod文件的目录配置，并命名不同的名字，比如：
 # mods = [
@@ -140,7 +142,7 @@ enabled = false
 
 ## 让mod引擎加载无缝联机mod
 
-打开mod引擎的配置文件`config_eldenring.toml`，并配置`external_dlls`配置项
+打开mod引擎的配置文件`config_darksouls3.toml`，并配置`external_dlls`配置项
 
 ![mod引擎配置文件加载无缝.png](/assets/images/mod引擎配置文件加载无缝.png)
 

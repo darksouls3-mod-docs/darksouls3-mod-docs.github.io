@@ -132,6 +132,20 @@ nav_order: 4
 
 ---
 
+# 我的游戏语言怎么是英文？怎么改成简体中文
+
+> 学习版玩家会遇到这个问题
+
+找到游戏目录的`OnlineFix.ini`，用记事本打开，找到`Language`那一行，把井号去掉，把`english`改成`schinese`，**保存然后重启游戏**
+
+![游戏本体修改为简体中文.png](/assets/images/游戏本体修改为简体中文.png)
+
+# 我的无缝mod道具为什么是英文？怎么改成简体中文
+
+找到无缝的配置文件`ds3sc_settings.ini`，记事本打开，然后修改`mod_language_override`为`schinese`，前提是你打了简体中文补丁，**保存然后重启游戏**
+
+![无缝修改为简体中文.png](/assets/images/无缝修改为简体中文.png)
+
 # 打上无缝联机mod之后手柄没有反应？
 
 > 常见于学习版steam无缝联机
