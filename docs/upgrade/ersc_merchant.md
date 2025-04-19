@@ -1,5 +1,5 @@
 ---
-title: 无缝+光荣商人
+title: 无缝+诚实商人
 nav_order: 2
 parent: (大成)利用mod引擎来整合无缝和其他mod
 ---
@@ -17,13 +17,13 @@ parent: (大成)利用mod引擎来整合无缝和其他mod
 
 # 视频教程
 
-[法魂整合光荣商人(含正版学习版)](https://www.bilibili.com/video/BV1qDqeY4E4X/){:target="_blank"}
+[无缝兼容诚实商人教程](https://www.bilibili.com/video/BV1v9PvetEoe){:target="_blank"}
 
 # 图文教程
 
-## 下载光荣商人
+## 下载诚实商人
 
-[光荣商人 N网地址](www.nexusmods.com/eldenring/mods/5192){:target="_blank"}
+[诚实商人 N网地址](https://www.nexusmods.com/darksouls3/mods/607){:target="_blank"}
 
 ---
 
