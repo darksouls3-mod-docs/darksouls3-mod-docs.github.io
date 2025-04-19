@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 黑暗之魂3mod文档(搭建中)
+title: 黑暗之魂3mod文档
 description: 黑暗之魂3mod文档
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://darksouls3-mod-docs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -132,6 +132,8 @@ nav_external_links:
     url: https://qm.qq.com/cgi-bin/qm/qr?k=PHeXjfNG9Agha3JyQx22BxTNTZ1Tj-6H&jump_from=webapi&authKey=IR9JdW5H4oivDGnhOS55SY26cqgaFf9c0JeD8VaTZaHDhWGGHjf5YEmsSfDnluoq
   - title: 在B站查看视频教程合集
     url: https://space.bilibili.com/255459684/channel/collectiondetail?sid=4878278&ctype=0
+  - title: 艾尔登法环mod文档
+    url: https://elden-ring-mod-docs.github.io/
 
 nav_external_links_new_tab: true
 # Show navigation error report
