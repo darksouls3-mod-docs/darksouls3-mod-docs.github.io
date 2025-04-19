@@ -153,6 +153,26 @@ enabled = false
 
 这里用的是相对路径，相对于谁呢？相对于游戏目录里的`modengine2_launcher.exe`，当然你也可以填绝对路径，看你喜欢
 
+## 如果你是学习版需要额外做一步
+
+打开你的`dlllist.txt`文件，里面应该是这样:
+```text
+OnlineFix64.dll
+StubDRM64.dll
+```
+把`StubDRM64.dll`挪到mod引擎的配置文件里，`dlllist.txt`文件里面只保留一个`OnlineFix64.dll`
+
+`dlllist.txt`
+
+![dlllist文件内容.png](/assets/images/dlllist文件内容.png)
+
+`config_darksouls3.toml`，注意要写在所有dll文件的最上面
+
+![StubDRM64引擎配置.png](/assets/images/StubDRM64引擎配置.png)
+
+{: .highlight }
+一定要是英文符号，修改完记得保存
+
 ## 大功告成 🎉🎉🎉
 
 > 开始游戏之前使用加速器加速一下steam，如果你不跟人联机，那不用加速
