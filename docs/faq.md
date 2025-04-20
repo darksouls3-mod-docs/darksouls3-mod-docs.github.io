@@ -43,3 +43,10 @@ nav_order: 5
 ![存档路径.png](/assets/images/存档路径.png)
 
 以长串数字命名的文件夹就是存档id，再点进去就是游戏存档了，扩展名.sl2的是原版游戏存档，.co2是无缝存档
+
+
+### 学习版无缝怎么进dlc
+
+[黑暗之魂3无缝联机进入dlc方法（ce）](https://www.bilibili.com/opus/1057903745582497831?spm_id_from=333.1387.0.0){:target="_blank"}
+
+---
